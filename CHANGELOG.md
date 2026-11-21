@@ -5,6 +5,8 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-11-21
+
 ### Added
 
 - `llm-tripwire mint` for five canary kinds: `phrase`, `key`, `url`, `email` and `doc` (decoy documents from the
@@ -18,3 +20,6 @@ All notable changes to this project are documented here. The format follows
 - Webhook alerts compatible with Slack and Discord.
 - Python API: `Detector.scan`, `Detector.redact` and a streaming scanner that finds canaries split across chunks.
 - `llm-tripwire list` and `llm-tripwire revoke`.
+
+[Unreleased]: https://github.com/OsamaWehbi/llm-tripwire/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/OsamaWehbi/llm-tripwire/releases/tag/v0.1.0
